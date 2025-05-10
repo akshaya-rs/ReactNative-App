@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "typeRoots": [
+      "./node_modules/@types"
+    ],
+    "types": [
+      "node"
+    ]
+  },
+  "include": [
+    "src/**/*.ts",
+    "node_modules/@types/mongoose",
+    "dist/index.d.ts"
+  ],
+
+
+
+  "exclude": [
+    "node_modules"
+  ]
+}
